@@ -38,3 +38,4 @@ stow <tool>
 ### ZSH Plugins
 - zsh-auto-suggestions
 - zsh-syntax-highlighting
+- zsh-bat
