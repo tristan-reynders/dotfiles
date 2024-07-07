@@ -7,6 +7,7 @@
 - **LAUNCHER:** Wofi
 - **BAR:** Waybar
 
+<\br>
 
 - **FONT:** MesloLGS NF
 - **THEME:** Nord Color Pallete
