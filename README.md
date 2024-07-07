@@ -4,6 +4,7 @@
 - **WM**: Hyprland
 - **TERMINAL:** Foot
 - **SHELL:** ZSH (oh-my-zsh)
+- **PROMPT:** Powerlevel10k
 - **EDITOR:** Neovim
 - **LAUNCHER:** Wofi
 - **BAR:** Waybar
