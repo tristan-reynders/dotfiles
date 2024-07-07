@@ -5,10 +5,7 @@
 - **TERMINAL:** Foot
 - **EDITOR:** Neovim
 - **LAUNCHER:** Wofi
-- **BAR:** Waybar
-
-<\br>
-
+- **BAR:** Waybar``
 - **FONT:** MesloLGS NF
 - **THEME:** Nord Color Pallete
 
