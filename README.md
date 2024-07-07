@@ -17,7 +17,7 @@
 
 1. **Clone this repository**
     
-Clone this repository to your home folder and change your current directorie to `/dotfiles`.
+Clone this repository to your home folder and change your current directory to `/dotfiles`.
 
 2. **Create symbolic links using GNU Stow**
 
