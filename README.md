@@ -3,6 +3,7 @@
 - **OS**: Arch Linux
 - **WM**: Hyprland
 - **TERMINAL:** Foot
+- **SHELL:** ZSH (oh-my-zsh)
 - **EDITOR:** Neovim
 - **LAUNCHER:** Wofi
 - **BAR:** Waybar
