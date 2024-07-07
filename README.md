@@ -33,4 +33,8 @@ stow */
 stow <tool>
 ```
 
+## Extra
+
+### ZSH Plugins
+- zsh-auto-suggestions
 
