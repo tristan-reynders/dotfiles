@@ -23,3 +23,5 @@ source $ZSH/oh-my-zsh.sh
 
 # PROMPT 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export PATH=$PATH:/home/tristan/.spicetify
