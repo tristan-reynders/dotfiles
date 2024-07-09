@@ -33,9 +33,12 @@ stow */
 stow <tool>
 ```
 
-## Extra
+## Dependencies
 
-### ZSH Plugins
+### Hyprland
+- playerctl
+
+### ZSH
 - zsh-auto-suggestions
 - zsh-syntax-highlighting
 - zsh-bat
