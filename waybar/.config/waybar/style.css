@@ -6,7 +6,7 @@
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(46, 52, 64, .6);
     border-radius: 13px;
     transition-property: background-color;
     transition-duration: .5s;
@@ -33,7 +33,7 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
-    background-color: transparent;
+    background-color: @background;
     color: @blue;
 }
 
@@ -51,7 +51,7 @@ button:hover {
 }
 
 #mode {
-    background-color: #929;
+    background-color: @background;
     box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -61,7 +61,8 @@ button:hover {
 #memory,
 #temperature,
 #network,
-#pulseaudio
+#pulseaudio,
+#custom-spotify
 {
     padding: 0 10px;
 }
@@ -90,6 +91,10 @@ button:hover {
     color: @blue;
 }
 
+#custom-spotify {
+    color: @green;
+}
+
 .modules-right,.modules-left,.modules-center {
     background-color: @background;
     border-radius: 15px;
@@ -99,7 +104,6 @@ button:hover {
 }
 
 .modules-left {
-    font-family: "MesloLGS NF";
     padding: 0 20px;
 }
 

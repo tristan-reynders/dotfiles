@@ -15,6 +15,7 @@
         "hyprland/window"
     ],  
     "modules-right": [
+	"custom/spotify",
         "pulseaudio",
         "network",
         "battery",
@@ -26,7 +27,7 @@
         "format": "{}",
         "max-length": 60,
         "rewrite": {
-  		    "": "Hyprland"
+  		"": "Hyprland"
   	    },
         "separate-outputs": true
     },
@@ -65,7 +66,7 @@
         
     "network": {
         "format-wifi": " {essid}",
-        "format-ethernet": "{cidr} ",
+        "format-ethernet": "󰈀 Ethernet",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": " ⚠ ",
@@ -87,6 +88,14 @@
             "default": ["", "", ""]
         },
         "on-click": "amixer set Master toggle"
-    }
+    },
+
+    "custom/spotify": {
+            "exec": "$HOME/.config/waybar/scripts/spotify.sh",
+            "max-length": 40,
+            "format": " {}",
+            "on-click": "playerctl play-pause",
+            "tooltip": false
+     }
 }
 
