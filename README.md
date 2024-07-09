@@ -8,6 +8,7 @@
 - **EDITOR:** Neovim
 - **LAUNCHER:** Wofi
 - **BAR:** Waybar
+- **MUSIC:** Spicetify
 - **FONT:** MesloLGS NF
 - **THEME:** Nord Color Palette
 
@@ -33,12 +34,23 @@ stow */
 stow <tool>
 ```
 
-## Dependencies
+## Extra
 
-### Hyprland
+### Dependencies
+
+#### Hyprland
 - playerctl
 
-### ZSH
+#### ZSH
 - zsh-auto-suggestions
 - zsh-syntax-highlighting
 - zsh-bat
+
+### Manual Steps
+
+#### Spicetify
+```bash
+spicetify apply
+```
+
+
