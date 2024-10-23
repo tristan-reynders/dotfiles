@@ -1,0 +1,99 @@
+@import "tokyo-night.css";
+
+/* Main waybar window */
+window#waybar {
+    background-color: @background;
+    border-bottom: 4px solid @dark;
+}
+
+/* Custom logo */
+#custom-logo {
+    padding: 5 25 5 10px;
+    font-size: 24px;
+    color: @teal;
+}
+
+/* Workspaces */
+#workspaces {
+    font-size: 15px;
+}
+
+#workspaces button {
+    color: @blue;
+    padding-left: 0px;
+}
+
+#workspaces button.empty {
+    color: @navy;
+}
+
+#workspaces button.visible {
+    color: @sky;
+}
+
+/* Current window */
+#window {
+    color: @indigo;
+}
+
+/* Network */
+#network {
+    color: @cyan;
+    font-size: 25px;
+    padding-right: 25px
+}
+
+#network.disconnected {
+    color: @red;
+}
+
+/* Pulseaudio */
+#pulseaudio {
+    color: @teal;
+    font-size: 20px;
+    padding-right: 7px;
+}
+
+#pulseaudio-slider slider {
+    background-image: none;
+    border: 0px solid;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+    min-height: 7px;
+    min-width: 80px;
+    border-radius: 10px;
+    background-color: @navy;
+    border: none;
+}
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    border-radius: 5px;
+    background-color: @teal
+}
+
+/* Memory */
+#memory {
+    color: @gold;
+    font-size: 23px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+/* CPU */
+#cpu {
+    color: @purple;
+    font-size: 23px;
+    padding-bottom: 2px;
+    padding-right: 15px;
+}
+
+/* Clock */
+#clock {
+    color: @beige;
+    font-size: 17px;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
