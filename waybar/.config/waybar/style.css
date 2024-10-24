@@ -31,27 +31,25 @@ window#waybar {
     color: @sky;
 }
 
+#workspaces button.focused {
+    color: pink;
+}
+
+#workspaces button:hover {
+    background: none;
+    border: none;
+}
+
 /* Current window */
 #window {
     color: @indigo;
-}
-
-/* Network */
-#network {
-    color: @cyan;
-    font-size: 25px;
-    padding-right: 25px
-}
-
-#network.disconnected {
-    color: @red;
 }
 
 /* Pulseaudio */
 #pulseaudio {
     color: @teal;
     font-size: 20px;
-    padding-right: 7px;
+    padding-right: 5px;
 }
 
 #pulseaudio-slider slider {
@@ -67,6 +65,7 @@ window#waybar {
     background-color: @navy;
     border: none;
 }
+
 #pulseaudio-slider highlight {
     min-width: 10px;
     border-radius: 5px;
@@ -78,7 +77,6 @@ window#waybar {
     color: @gold;
     font-size: 23px;
     padding-bottom: 2px;
-    padding-left: 10px;
 }
 
 /* CPU */
@@ -86,7 +84,18 @@ window#waybar {
     color: @purple;
     font-size: 23px;
     padding-bottom: 2px;
-    padding-right: 15px;
+    padding-right: 7px;
+}
+
+/* Network */
+#network {
+    color: @cyan;
+    font-size: 24px;
+    padding-right: 20px
+}
+
+#network.disconnected {
+    color: @red;
 }
 
 /* Clock */
@@ -94,6 +103,7 @@ window#waybar {
     color: @beige;
     font-size: 17px;
     font-weight: 900;
-    padding-right: 10px;
+    padding-right: 15px;
+    padding-bottom: 1px;
 }
 
